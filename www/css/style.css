@@ -1,1 +1,19 @@
 /* Empty. Add your own CSS if you like */
+@media (min-width: 768px) {
+    .button.ion-navicon {
+        display: none;
+    }
+    .menu.menu-left {
+        display: none;
+    }
+    .menu-content {
+        -webkit-transform: translate3d(0px, 0px, 0px) !important;
+    }
+    .orders-view {
+        display: block;
+        background-color: #f00;
+    }
+    .pane .view {
+        position: relative;
+    }
+}

@@ -1,5 +1,5 @@
-<ion-view view-title="Orders">
-  <ion-content>
+<ion-view view-title="Orders" class="orders-view">
+  <ion-content class="orders-view">
     <div class="card" ng-repeat="order in orders">
       <div class="item item-divider  bar bar-header bar-balanced">
         {{ order.symbol }}  {{ order.filled }} <span style="float: right">{{ order.percentDone }}%</span>
